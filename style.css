@@ -114,7 +114,7 @@ body
 {
     height: 110vh;
     width: 100%;
-    background-image: url(/image/home/creme_egg_2023.jpg);
+    background-image: url(image/home/creme_egg_2023.jpg);
     background-size: cover;
 }
 .page02
@@ -182,7 +182,7 @@ body
  }
  .page02 .welcomehome::before
  {
-    background: url(/image/home/bg-top-light.svg);
+    background: url(image/home/bg-top-light.svg);
     box-sizing: inherit;
     content: "";
     display: block;
@@ -238,7 +238,7 @@ body
  #color01
 {
     background-color: #E9A01F;
-    background-image: url(/image/chocolate/dinky-deckers-01.png);
+    background-image: url(image/chocolate/dinky-deckers-01.png);
     background-repeat: no-repeat;
     background-size: 135px 135px;
     background-position: center;
@@ -246,14 +246,14 @@ body
 #color02
 {
     background-color: #29B34D;
-    background-image: url(/image/chocolate/cadbuy-dairy-milk-giant-buttons-02.png);
+    background-image: url(image/chocolate/cadbuy-dairy-milk-giant-buttons-02.png);
     background-repeat: no-repeat;
     background-size: 152px 154px;
     background-position: center;
 }
 #color03
 {
-    background-image: url(/image/chocolate/roses.03.png);
+    background-image: url(image/chocolate/roses.03.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -261,7 +261,7 @@ body
 #color04
 {
     background-color: #FFCC0F;
-    background-image: url(/image/chocolate/big-taste-toffee-wholenut-04.png);
+    background-image: url(image/chocolate/big-taste-toffee-wholenut-04.png);
     background-repeat: no-repeat;
     background-size: 155px 67px;
     background-position: center;
@@ -269,7 +269,7 @@ body
 #color05
 {
     background-color: #DA115E;
-    background-image: url(/image/chocolate/big-taste-toffee-wholenut-04.png);
+    background-image: url(image/chocolate/big-taste-toffee-wholenut-04.png);
     background-repeat: no-repeat;
     background-size: 130px 50px;
     background-position: center;
@@ -385,7 +385,7 @@ body
 }
 .pic01
 {
-    background-image: url(/image/reciepe/creme-egg-toastie--01.png);
+    background-image: url(image/reciepe/creme-egg-toastie--01.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -393,14 +393,14 @@ body
 .pic02
 {
     background-color: #29B34D;
-    background-image: url(/image/reciepe/owl-cake--02.png);
+    background-image: url(image/reciepe/owl-cake--02.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .pic03
 {
-    background-image: url(/image/reciepe/caramelt-in-the-middle--03.png);
+    background-image: url(image/reciepe/caramelt-in-the-middle--03.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -408,14 +408,14 @@ body
 .pic04
 {
     background-color: #FFCC0F;
-    background-image: url(/image/reciepe/creme-egg-tray-bake--04.png);
+    background-image: url(image/reciepe/creme-egg-tray-bake--04.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .pic05
 {
-    background-image: url(/image/reciepe/milk-tray-bake--05.png);
+    background-image: url(image/reciepe/milk-tray-bake--05.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -475,7 +475,7 @@ body
 
 .lastpage::before
 {
-    background: url(/image/home/bg-top-light.svg);
+    background: url(image/home/bg-top-light.svg);
     /* box-sizing: inherit; */
     content: "";
     /* display: block; */
@@ -510,7 +510,7 @@ body
 {
     height: 400px;
     width: 400px;
-    background-image: url(/image/lastpage/cadbury-world01.png);
+    background-image: url(image/lastpage/cadbury-world01.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -523,7 +523,7 @@ body
 {
     height: 100%;
     width: 400px;
-    background-image: url(/image/lastpage/perfect-gift.png);
+    background-image: url(image/lastpage/perfect-gift.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -572,7 +572,7 @@ body
     height: 181px;
     /* background-color: #B2A5C7; */
     justify-content: flex-end;
-    background-image: url(/image/FOOTER/footer-splash.svg);
+    background-image: url(image/FOOTER/footer-splash.svg);
 }
 .bottomfoot
 {
