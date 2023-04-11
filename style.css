@@ -1,0 +1,638 @@
+*
+{
+    margin: 0;
+}
+body
+{
+    margin: 0;
+}
+.header
+{
+    height: 160px;
+    width: 100%;
+    /* background-color: #3E1C71; */
+    /* position: relative; */
+
+}
+.top
+{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+.navbar
+{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding-top: 32px;
+    padding-right: 111px;
+    
+}
+.navbar li a{
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #B2A5C7;
+    font-size: 21px;
+    font-weight: 600;
+}
+.bottom
+{
+    height: 30%;
+    width: 100%;
+    /* background-color: black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.bottom img
+{
+    position: absolute;
+    bottom: 2px;
+    margin-left: -1370px;
+}
+.bottom ul
+{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 230px;
+}
+.bottom ul a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+    /* font-weight: 600; */
+}
+.box-container
+{
+    width: 246px;
+    height: 30px;
+    border: 4px solid #fff;
+    padding: 0px 10px;
+    border-radius: 58px;
+    position: relative;
+    background-color: #fff;
+    margin-top: 9px;
+    margin-left: 70px;
+}
+.elementcontainer
+{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.searchbar
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #B2A5C7;
+} 
+.searchbar:focus
+{
+    outline: none;
+}
+.fa-solid
+{
+    font-size: 25px;
+}
+.main1
+{
+    height: 110vh;
+    width: 100%;
+    background-image: url(/image/home/creme_egg_2023.jpg);
+    background-size: cover;
+}
+.page02
+{
+    height: 943px;
+    width: 100%;
+    background-color: #2A0A49;
+    align-items: center;
+}
+.headline
+{
+    padding-top: 60px;
+    text-align: center;
+}
+.headline h1{
+    margin: 2px 185px;
+    font-size: 56px;
+    color: #fff;
+    font-family: 'Alkatra', cursive;
+ }
+ .welcomehome
+ {
+    padding-top: 50px;
+    height: 400px;
+    width: 100%;
+    /* background-color: #B2A5C7; */
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+ }
+ .welcomehome .child{
+    height: 370px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ .titlecontent
+ {
+    /* display: flex; */
+    justify-content: center;
+    gap: 20px;
+ }
+ .titlecontent img
+ {
+    border-radius: 30px;
+ }
+ .btn02 
+ {
+    
+    /* background-color: #e7def0; */
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+   
+ }
+ .btn02 a
+ {
+    padding: 10px 60px 10px 60px;
+    /* background-color: #B2A5C7; */
+    border: 3px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+ }
+ .page02 .welcomehome::before
+ {
+    background: url(/image/home/bg-top-light.svg);
+    box-sizing: inherit;
+    content: "";
+    display: block;
+    background-size: cover;
+    bottom: -1026px;
+    height: 130px;
+    left: 0;
+    position: absolute;
+    width: 100%
+ }
+ .choco01
+ {
+    height: 900px;
+    width: 100%;
+    background-color: #472383;
+    /* background-color: black; */
+ }
+ .slider01
+ {
+    height: 425px;
+    width: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    
+ }
+ .img01
+ {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    cursor: pointer;
+
+ }
+ .img02
+ {
+    height: 200px;
+    width: 200px;
+    /* background-color: rgb(3, 233, 53); */
+    border-radius: 50%;
+    cursor: pointer;
+ }
+ .img03
+ {
+    height: 100%;
+    width: 400px;
+    /* background-color: rgb(52, 13, 192); */
+    cursor: pointer;
+ }
+ #color01
+{
+    background-color: #E9A01F;
+    background-image: url(/image/chocolate/dinky-deckers-01.png);
+    background-repeat: no-repeat;
+    background-size: 135px 135px;
+    background-position: center;
+}
+#color02
+{
+    background-color: #29B34D;
+    background-image: url(/image/chocolate/cadbuy-dairy-milk-giant-buttons-02.png);
+    background-repeat: no-repeat;
+    background-size: 152px 154px;
+    background-position: center;
+}
+#color03
+{
+    background-image: url(/image/chocolate/roses.03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#color04
+{
+    background-color: #FFCC0F;
+    background-image: url(/image/chocolate/big-taste-toffee-wholenut-04.png);
+    background-repeat: no-repeat;
+    background-size: 155px 67px;
+    background-position: center;
+}
+#color05
+{
+    background-color: #DA115E;
+    background-image: url(/image/chocolate/big-taste-toffee-wholenut-04.png);
+    background-repeat: no-repeat;
+    background-size: 130px 50px;
+    background-position: center;
+}
+.sliding
+{
+    margin-top: 200px;
+}
+.shadow
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 460px;
+}
+.slidingnames
+{
+    width: 100%;
+    margin-top: 70px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.slidingnames h1
+{
+    color: #A391C1;
+}
+.slidedotes
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 30px;
+    align-items: center;
+}
+.dotes
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.center
+{
+    height: 30px;
+    width: 30px;
+}
+
+
+.button
+{
+    margin-top: 30px;
+}
+.button span
+{
+    border: 3px solid #fff;
+    padding: 10px 40px 10px 40px;
+    border-radius: 30px;
+}
+    .slider01::before
+ {
+    /* background: url(/image/home/); */
+    /* box-sizing: inherit; */
+    content: "";
+    /* display: block; */
+    height: 130px;
+    left: 0;
+    position: absolute; 
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+    margin-top: -130px;
+ }
+.recipes
+{
+    width: 100%;
+    height: 1100px;
+    background-color: #2A0A49;
+}
+.sliding02
+{
+    height: 425px;
+    width: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+    /* margin-top: 36px; */
+    /* position: absolute; */
+}
+.recipe1
+{
+    height: 160px;
+    width: 160px;
+    background-color: #2A0A49;
+    border-radius: 30px;
+}
+.recipe2
+{
+    height: 180px;
+    width: 180px;
+    background-color: #2A0A49;
+    border-radius: 30px;
+}
+.recipe3
+{
+    height: 300px;
+    width: 300px;
+    background-color: #2A0A49;
+    border-radius: 30px;
+}
+.pic01
+{
+    background-image: url(/image/reciepe/creme-egg-toastie--01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic02
+{
+    background-color: #29B34D;
+    background-image: url(/image/reciepe/owl-cake--02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pic03
+{
+    background-image: url(/image/reciepe/caramelt-in-the-middle--03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pic04
+{
+    background-color: #FFCC0F;
+    background-image: url(/image/reciepe/creme-egg-tray-bake--04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pic05
+{
+    background-image: url(/image/reciepe/milk-tray-bake--05.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.recipes h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Alkatra', cursive;
+    padding-top: 100px;
+    font-size: 70px;
+}
+.slidename 
+{
+    text-align: center;
+}
+.slidename h2{
+    color: #fff;
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+
+}
+.dotslide
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 30px;
+    align-items: center;
+    padding-top: 90px;
+}
+.point
+{
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.middle
+{
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.buttonlast
+{
+    margin-top: 60px;
+}
+.buttonlast span
+{
+    border: 3px solid #fff;
+    padding: 10px 40px 10px 40px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+
+.lastpage::before
+{
+    background: url(/image/home/bg-top-light.svg);
+    /* box-sizing: inherit; */
+    content: "";
+    /* display: block; */
+    height: 130px;
+    left: 0;
+    position: absolute; 
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+    margin-top: -130px;
+}
+
+.lastpage
+{
+    height: 700px;
+    width: 100%;
+    background-color: #472383;
+}
+.world
+{
+    height: 400px;
+    width: 100%;
+    /* background: #29B34D;     */
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 30px;
+    padding-bottom: 90px;
+    position: absolute;
+}
+.la01
+{
+    height: 400px;
+    width: 400px;
+    background-image: url(/image/lastpage/cadbury-world01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 140px;
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: center; */
+}
+.la02
+{
+    height: 100%;
+    width: 400px;
+    background-image: url(/image/lastpage/perfect-gift.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discoverbtn
+{
+    MARGIN-top: 30PX;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 400px;
+}
+.la01 a
+{
+    text-decoration: none;
+    color: #fff;
+    border: 4px solid #fff;
+    border-radius: 30px;
+    padding: 10px 40px 10px 40px;
+
+}
+.la02 a
+{
+    text-decoration: none;
+    color: #fff;
+    border: 4px solid #fff;
+    border-radius: 30px;
+    padding: 10px 40px 10px 40px;
+
+}
+.footer
+{
+    width: 100%;
+    height: 10%;
+    /* background-color: black; */
+    display: flex;
+    align-items: flex-end;
+    margin-top: 519px;
+    padding-top: 98px;
+    position: absolute;
+    justify-content: flex-end;
+}
+.foot
+{
+    width: 300px;
+    height: 181px;
+    /* background-color: #B2A5C7; */
+    justify-content: flex-end;
+    background-image: url(/image/FOOTER/footer-splash.svg);
+}
+.bottomfoot
+{
+    height: 150px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+/* .icons
+{
+    background-color: #E9A01F;
+    height: 150px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px 200px 160px;
+} */
+.primary
+{
+    height: 50%;
+    width: 100%;
+    /* background-color: #dbd8e0; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.plus 
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #6E529C;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 190px;
+    margin-top: 40px;
+    font-family: 'Alkatra', cursive;
+    letter-spacing: 2px;
+    
+
+}
+.laicon
+{
+    display: flex;
+    align-items: end;
+    gap: 25px;
+    margin-right: 200px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.secondary
+{
+    height: 50%;
+    width: 100%;
+    /* background-color: aqua; */
+    align-items: center; 
+}
+.secondary h4{
+    display: flex;
+    justify-content: end;
+    color: #6E5A9B;
+    margin-right: 180px;
+}
